@@ -1,0 +1,16 @@
+/*This styling shouldnt be in the `card.css` file, its a new componenet,
+so has a new file*/
+
+.btn {
+  background: white;
+  border: 1px solid rgb(240, 240, 240);
+  border-radius: 4px;
+  color: gray;
+  padding: 4px 8px;
+  margin: 8px;
+  display: inline-block;
+}
+
+.btn:hover {
+  color: black;
+}

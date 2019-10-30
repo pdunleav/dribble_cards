@@ -1,0 +1,53 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 30%;
+}
+
+.card-white {
+  background-color: white;
+  padding: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  background-image: url("https://source.unsplash.com/random");
+  height: 175px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-reactions {
+  margin-top: 8px;
+  text-align: right;
+}
+
+.card-user {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.card-user img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.card-user a {
+  margin-left: 8px;
+}
+
+/*Initial state of the button */
+.card-white .btn {
+  opacity: 0; /*completely transparent*/
+  transition: .3s; /*How long it takes to change from completely hidden to completely visable*/
+
+}
+
+.card-white:hover .btn {
+  opacity: 1; /*When hovering on the card, the buttons on the card should appear*/
+}
+
